@@ -22,14 +22,6 @@ black_apple = media.Movie("Black Apple", "A story about wicked men",
                           "http://www.planwallpaper.com/static/images/nasas-images-of-most-remarkable-events-you-cant-miss.jpg",
                           "https://www.youtube.com/watch?v=aTo9nhoPlAE")
 
-black_apple = media.Movie("Black Apple", "A story about wicked men",
-                          "http://www.planwallpaper.com/static/images/nasas-images-of-most-remarkable-events-you-cant-miss.jpg",
-                          "https://www.youtube.com/watch?v=aTo9nhoPlAE")
-
-black_apple = media.Movie("Black Apple", "A story about wicked men",
-                          "http://www.planwallpaper.com/static/images/nasas-images-of-most-remarkable-events-you-cant-miss.jpg",
-                          "https://www.youtube.com/watch?v=aTo9nhoPlAE"
-
 
 movies = [godzilla, avatar,jezebels,black_apple]
 fresh_tomatoes.open_movies_page(movies)
