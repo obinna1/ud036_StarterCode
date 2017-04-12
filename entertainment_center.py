@@ -18,7 +18,7 @@ jezebels = media.Movie("The Jezebels", "A story about nigerian love",
 
 
 black_apple = media.Movie("Black Apple", "A story about wicked men",
-                          "http://www.planwallpaper.com/static/images/nasas-images-of-most-remarkable-events-you-cant-miss.jpg",
+                          "http://img2.naijapals.com/pictures/600/ba54c1b972c3a0fc51a9748232283d21.jpg",
                           "https://www.youtube.com/watch?v=aTo9nhoPlAE")
 
 instagram_girls = media.Movie("Instragram Girls", "A story about escort girls", 
@@ -26,7 +26,7 @@ instagram_girls = media.Movie("Instragram Girls", "A story about escort girls",
                               "https://www.youtube.com/watch?v=oA3PeXQtXuk")
 
 single_ladies = media.Movie("Single ladies", "A story about extravagant ladies",
-                            "https://i.ytimg.com/vi/xjr-1DH3xA4/maxresdefault.jpg,
+                            "https://i.ytimg.com/vi/xjr-1DH3xA4/maxresdefault.jpg",
                             "https://www.youtube.com/watch?v=24Dc67ZQBug")
 
 undercover_lover = media.Movie("Undercover Lover", "A story about love",
@@ -34,6 +34,5 @@ undercover_lover = media.Movie("Undercover Lover", "A story about love",
                                "https://www.youtube.com/watch?v=3Vj94AB5gtE")
 
 
-movies = [godzilla, avatar,jezebels,black_apple,instagram_girls,single ladies,undercover_lover]
+movies = [godzilla, avatar,jezebels,black_apple,instagram_girls,single_ladies,undercover_lover]
 fresh_tomatoes.open_movies_page(movies)
-
