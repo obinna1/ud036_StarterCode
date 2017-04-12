@@ -1,6 +1,9 @@
 import media
 import fresh_tomatoes
 
+# using the constructor from the movie class (def__int__)
+# each string within the brackets will hold values for
+# movie title, storyline, image and youtube url respectively.
 
 godzilla = media.Movie("Godzilla","urban",
                        "https://pmchollywoodlife.files.wordpress.com/2014/05/godzilla-poster-lead.jpg?w=600",
@@ -33,6 +36,9 @@ undercover_lover = media.Movie("Undercover Lover", "A story about love",
                                "https://i.ytimg.com/vi/XzJJBeAVZVE/maxresdefault.jpg",
                                "https://www.youtube.com/watch?v=3Vj94AB5gtE")
 
+# List array to inidcate what movies fresh_tomatoes should import
+movies = [godzilla, avatar,jezebels,black_apple,instagram_girls,undercover_lover]
 
-movies = [godzilla, avatar,jezebels,black_apple,instagram_girls,single_ladies,undercover_lover]
+# Open selected movies
 fresh_tomatoes.open_movies_page(movies)
+
